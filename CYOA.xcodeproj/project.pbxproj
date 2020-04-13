@@ -13,6 +13,16 @@
 		EBD73EBD2442C766005E467B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD73EBB2442C766005E467B /* Main.storyboard */; };
 		EBD73EBF2442C76C005E467B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD73EBE2442C76C005E467B /* Assets.xcassets */; };
 		EBD73EC22442C76C005E467B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD73EC02442C76C005E467B /* LaunchScreen.storyboard */; };
+		EBD73ECA2442D460005E467B /* secondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD73EC92442D460005E467B /* secondViewViewController.swift */; };
+		EBE579262443A36200D0252D /* GraveyardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579252443A36200D0252D /* GraveyardViewController.swift */; };
+		EBE579282443B13600D0252D /* graveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579272443B13600D0252D /* graveViewController.swift */; };
+		EBE5792A2443C0C200D0252D /* GraveKidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579292443C0C200D0252D /* GraveKidViewController.swift */; };
+		EBE5792C2443E31500D0252D /* CreepyForestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5792B2443E31500D0252D /* CreepyForestViewController.swift */; };
+		EBE5792E2443E8B600D0252D /* SpiderwebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5792D2443E8B600D0252D /* SpiderwebViewController.swift */; };
+		EBE579302443E99E00D0252D /* FieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5792F2443E99E00D0252D /* FieldViewController.swift */; };
+		EBE579322443EE6E00D0252D /* PuddleForestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579312443EE6E00D0252D /* PuddleForestViewController.swift */; };
+		EBE579342443F2E400D0252D /* TreeKidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579332443F2E400D0252D /* TreeKidViewController.swift */; };
+		EBE579362443F7F800D0252D /* BrokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE579352443F7F800D0252D /* BrokenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		EBD73EBE2442C76C005E467B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD73EC12442C76C005E467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBD73EC32442C76C005E467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD73EC92442D460005E467B /* secondViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewViewController.swift; sourceTree = "<group>"; };
+		EBE579252443A36200D0252D /* GraveyardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraveyardViewController.swift; sourceTree = "<group>"; };
+		EBE579272443B13600D0252D /* graveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graveViewController.swift; sourceTree = "<group>"; };
+		EBE579292443C0C200D0252D /* GraveKidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraveKidViewController.swift; sourceTree = "<group>"; };
+		EBE5792B2443E31500D0252D /* CreepyForestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreepyForestViewController.swift; sourceTree = "<group>"; };
+		EBE5792D2443E8B600D0252D /* SpiderwebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderwebViewController.swift; sourceTree = "<group>"; };
+		EBE5792F2443E99E00D0252D /* FieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldViewController.swift; sourceTree = "<group>"; };
+		EBE579312443EE6E00D0252D /* PuddleForestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuddleForestViewController.swift; sourceTree = "<group>"; };
+		EBE579332443F2E400D0252D /* TreeKidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeKidViewController.swift; sourceTree = "<group>"; };
+		EBE579352443F7F800D0252D /* BrokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,16 @@
 				EBD73EBE2442C76C005E467B /* Assets.xcassets */,
 				EBD73EC02442C76C005E467B /* LaunchScreen.storyboard */,
 				EBD73EC32442C76C005E467B /* Info.plist */,
+				EBD73EC92442D460005E467B /* secondViewViewController.swift */,
+				EBE579252443A36200D0252D /* GraveyardViewController.swift */,
+				EBE579272443B13600D0252D /* graveViewController.swift */,
+				EBE579292443C0C200D0252D /* GraveKidViewController.swift */,
+				EBE5792B2443E31500D0252D /* CreepyForestViewController.swift */,
+				EBE5792D2443E8B600D0252D /* SpiderwebViewController.swift */,
+				EBE5792F2443E99E00D0252D /* FieldViewController.swift */,
+				EBE579312443EE6E00D0252D /* PuddleForestViewController.swift */,
+				EBE579332443F2E400D0252D /* TreeKidViewController.swift */,
+				EBE579352443F7F800D0252D /* BrokenViewController.swift */,
 			);
 			path = CYOA;
 			sourceTree = "<group>";
@@ -138,9 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE579282443B13600D0252D /* graveViewController.swift in Sources */,
 				EBD73EBA2442C766005E467B /* ViewController.swift in Sources */,
+				EBE5792C2443E31500D0252D /* CreepyForestViewController.swift in Sources */,
+				EBE5792E2443E8B600D0252D /* SpiderwebViewController.swift in Sources */,
+				EBE5792A2443C0C200D0252D /* GraveKidViewController.swift in Sources */,
+				EBE579362443F7F800D0252D /* BrokenViewController.swift in Sources */,
+				EBE579262443A36200D0252D /* GraveyardViewController.swift in Sources */,
 				EBD73EB62442C766005E467B /* AppDelegate.swift in Sources */,
+				EBE579302443E99E00D0252D /* FieldViewController.swift in Sources */,
 				EBD73EB82442C766005E467B /* SceneDelegate.swift in Sources */,
+				EBE579342443F2E400D0252D /* TreeKidViewController.swift in Sources */,
+				EBE579322443EE6E00D0252D /* PuddleForestViewController.swift in Sources */,
+				EBD73ECA2442D460005E467B /* secondViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

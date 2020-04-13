@@ -16,5 +16,26 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var sliderOutlet: UISlider!
+    @IBAction func sliderSlid(_ sender: UISlider!) {
+        //all the way right starts game
+        //UILabel.text disappears
+        //"damn flashlight"
+        if sender.value == 1 {
+            startOutlet.isHidden = false
+        }
+        else {
+            startOutlet.isHidden = true
+        }
+    }
+    
+    @IBOutlet weak var seekTitle: UILabel!
+    
+    @IBOutlet weak var startOutlet: UIButton!
+    @IBAction func startButton(_ sender: Any) {
+        performSegue(withIdentifier: "segueOne", sender: self)
+    }
+    
+
 }
 
