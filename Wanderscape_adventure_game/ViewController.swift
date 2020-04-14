@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
     @IBAction func startButtonTapped(_ sender: Any) {
     }
     @IBAction func introContinueTapped(_ sender: Any) {
@@ -53,6 +55,11 @@ class ViewController: UIViewController {
     }
     @IBAction func endContinueTapped(_ sender: Any) {
     }
+    
+    @IBAction func swampCloseContinueTapped(_ sender: Any) {
+    }
+    
+    
 }
 
 

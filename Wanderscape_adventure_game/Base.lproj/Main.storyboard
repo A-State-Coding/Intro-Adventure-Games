@@ -64,7 +64,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpk-eR-BbY">
                                 <rect key="frame" x="51" y="97" width="333" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">where am i?i hear a river nearby. maybe i can find my way to town.</string>
+                                <string key="text">where am i?
+i hear a river nearby. maybe i can find my way to town.</string>
                                 <fontDescription key="fontDescription" name="PearlDistrict" family="Pearl District" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -155,8 +156,6 @@
         <!--View Controller-->
         <scene sceneID="KNd-WZ-Fx0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C5D-Ah-EeJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="ifQ-7L-5Wu" userLabel="Exit" sceneMemberID="exit"/>
                 <viewController id="bMZ-H3-4D9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EuR-T9-vlx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -194,6 +193,8 @@
                         <viewLayoutGuide key="safeArea" id="9dz-FT-jle"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C5D-Ah-EeJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ifQ-7L-5Wu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2079.7101449275365" y="409.82142857142856"/>
         </scene>
@@ -506,7 +507,7 @@
                                 </state>
                                 <connections>
                                     <action selector="beatTheGatorTapped:" destination="flI-ya-pm2" eventType="touchUpInside" id="5ow-SU-dLX"/>
-                                    <segue destination="KGh-Px-hZX" kind="presentation" modalPresentationStyle="fullScreen" id="QFX-AK-V9j"/>
+                                    <segue destination="WG0-cE-AmN" kind="presentation" modalPresentationStyle="fullScreen" id="PUS-Ry-Brb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i failed. hit the gator!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvH-AT-X5F">
@@ -529,8 +530,6 @@
         <!--View Controller-->
         <scene sceneID="qrv-mD-ygp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cqE-zL-wwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="y4H-db-Jcg" userLabel="Exit" sceneMemberID="exit"/>
                 <viewController id="yk4-1D-xTF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NPN-rS-sg1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -568,6 +567,8 @@
                         <viewLayoutGuide key="safeArea" id="3Ia-eb-w4K"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqE-zL-wwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="y4H-db-Jcg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4053.6231884057975" y="-591.29464285714278"/>
         </scene>
@@ -755,6 +756,53 @@
             </objects>
             <point key="canvasLocation" x="7442.0289855072469" y="-15.401785714285714"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="sIl-fN-4Nc">
+            <objects>
+                <viewController id="WG0-cE-AmN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Icr-Bz-dRb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="madeit" translatesAutoresizingMaskIntoConstraints="NO" id="LOn-uL-ihD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="JN9-H9-UkF">
+                                <rect key="frame" x="0.0" y="327" width="240" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="that was close." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hc-rh-FcM">
+                                <rect key="frame" x="52" y="112" width="250" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PearlDistrict" family="Pearl District" pointSize="27"/>
+                                <color key="textColor" red="0.88810200279999996" green="0.98549181220000004" blue="0.15682326460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbD-jz-s6R">
+                                <rect key="frame" x="217" y="287" width="128" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PearlDistrict" family="Pearl District" pointSize="27"/>
+                                <state key="normal" title="continue">
+                                    <color key="titleColor" red="0.88810200279999996" green="0.98549181220000004" blue="0.15682326460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="swampCloseContinueTapped:" destination="IdB-Hf-GpK" eventType="touchUpInside" id="WbO-nb-12J"/>
+                                    <action selector="swampMadeItContinueTapped:" destination="mCz-HS-8Cb" eventType="touchUpInside" id="ae5-Et-P9b"/>
+                                    <action selector="swampMadeItContinueTapped:" destination="IdB-Hf-GpK" eventType="touchUpInside" id="eB5-bb-EHv"/>
+                                    <segue destination="KGh-Px-hZX" kind="presentation" modalPresentationStyle="fullScreen" id="YkN-ju-hpw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3Fc-IS-uma"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dm8-T1-GLa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="IdB-Hf-GpK" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="5474" y="410"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bedroom" width="1724" height="1891"/>
@@ -774,7 +822,7 @@
         <image name="wakeup" width="259" height="128.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lY8-qc-6PU"/>
+        <segue reference="YkN-ju-hpw"/>
         <segue reference="emO-q5-fvP"/>
         <segue reference="yrG-hC-Pai"/>
     </inferredMetricsTieBreakers>
