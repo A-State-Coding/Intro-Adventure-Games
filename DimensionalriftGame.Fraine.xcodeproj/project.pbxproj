@@ -15,6 +15,23 @@
 		F17353AA244CDBDC00F975FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17353A8244CDBDC00F975FC /* LaunchScreen.storyboard */; };
 		F17353B5244CDBDD00F975FC /* DimensionalriftGame_FraineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353B4244CDBDD00F975FC /* DimensionalriftGame_FraineTests.swift */; };
 		F17353C0244CDBDD00F975FC /* DimensionalriftGame_FraineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353BF244CDBDD00F975FC /* DimensionalriftGame_FraineUITests.swift */; };
+		F17353CE244CDCBA00F975FC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353CD244CDCBA00F975FC /* UserViewController.swift */; };
+		F17353D1244CE5A400F975FC /* User2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353D0244CE5A400F975FC /* User2ViewController.swift */; };
+		F17353D3244CE5C200F975FC /* user3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353D2244CE5C200F975FC /* user3ViewController.swift */; };
+		F17353D5244CE65C00F975FC /* user4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353D4244CE65C00F975FC /* user4ViewController.swift */; };
+		F17353D9244D72F700F975FC /* user5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353D8244D72F700F975FC /* user5ViewController.swift */; };
+		F17353DC244D79FB00F975FC /* user6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353DB244D79FB00F975FC /* user6ViewController.swift */; };
+		F17353DF244D7C3E00F975FC /* user7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353DE244D7C3E00F975FC /* user7ViewController.swift */; };
+		F17353E1244D7C9000F975FC /* user8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353E0244D7C9000F975FC /* user8ViewController.swift */; };
+		F18C51C7244FD3F800B197D3 /* user10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51C6244FD3F700B197D3 /* user10ViewController.swift */; };
+		F18C51C9244FD44D00B197D3 /* user11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51C8244FD44D00B197D3 /* user11ViewController.swift */; };
+		F18C51CC244FE23200B197D3 /* user12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51CB244FE23200B197D3 /* user12ViewController.swift */; };
+		F18C51CE244FE25A00B197D3 /* user13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51CD244FE25A00B197D3 /* user13ViewController.swift */; };
+		F18C51D0244FE28500B197D3 /* user14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51CF244FE28500B197D3 /* user14ViewController.swift */; };
+		F18C51D2245002EF00B197D3 /* user15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D1245002EF00B197D3 /* user15ViewController.swift */; };
+		F18C51D42450034B00B197D3 /* user16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D32450034B00B197D3 /* user16ViewController.swift */; };
+		F18C51D62450038800B197D3 /* user17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D52450038800B197D3 /* user17ViewController.swift */; };
+		F1BFB31A244FA0ED0059CFE9 /* user9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFB319244FA0ED0059CFE9 /* user9ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,24 @@
 		F17353BB244CDBDD00F975FC /* DimensionalriftGame.FraineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimensionalriftGame.FraineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17353BF244CDBDD00F975FC /* DimensionalriftGame_FraineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionalriftGame_FraineUITests.swift; sourceTree = "<group>"; };
 		F17353C1244CDBDD00F975FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17353CD244CDCBA00F975FC /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		F17353D0244CE5A400F975FC /* User2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User2ViewController.swift; sourceTree = "<group>"; };
+		F17353D2244CE5C200F975FC /* user3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user3ViewController.swift; sourceTree = "<group>"; };
+		F17353D4244CE65C00F975FC /* user4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user4ViewController.swift; sourceTree = "<group>"; };
+		F17353D8244D72F700F975FC /* user5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user5ViewController.swift; sourceTree = "<group>"; };
+		F17353DB244D79FB00F975FC /* user6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user6ViewController.swift; sourceTree = "<group>"; };
+		F17353DD244D7AEE00F975FC /* DimensionalriftGame.Fraine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DimensionalriftGame.Fraine.entitlements; sourceTree = "<group>"; };
+		F17353DE244D7C3E00F975FC /* user7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user7ViewController.swift; sourceTree = "<group>"; };
+		F17353E0244D7C9000F975FC /* user8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user8ViewController.swift; sourceTree = "<group>"; };
+		F18C51C6244FD3F700B197D3 /* user10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user10ViewController.swift; sourceTree = "<group>"; };
+		F18C51C8244FD44D00B197D3 /* user11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user11ViewController.swift; sourceTree = "<group>"; };
+		F18C51CB244FE23200B197D3 /* user12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user12ViewController.swift; sourceTree = "<group>"; };
+		F18C51CD244FE25A00B197D3 /* user13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user13ViewController.swift; sourceTree = "<group>"; };
+		F18C51CF244FE28500B197D3 /* user14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user14ViewController.swift; sourceTree = "<group>"; };
+		F18C51D1245002EF00B197D3 /* user15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user15ViewController.swift; sourceTree = "<group>"; };
+		F18C51D32450034B00B197D3 /* user16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user16ViewController.swift; sourceTree = "<group>"; };
+		F18C51D52450038800B197D3 /* user17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user17ViewController.swift; sourceTree = "<group>"; };
+		F1BFB319244FA0ED0059CFE9 /* user9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user9ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +134,11 @@
 		F173539C244CDBC900F975FC /* DimensionalriftGame.Fraine */ = {
 			isa = PBXGroup;
 			children = (
+				F17353DD244D7AEE00F975FC /* DimensionalriftGame.Fraine.entitlements */,
 				F173539D244CDBC900F975FC /* AppDelegate.swift */,
 				F173539F244CDBC900F975FC /* SceneDelegate.swift */,
 				F17353A1244CDBC900F975FC /* ViewController.swift */,
+				F17353CF244CDCC400F975FC /* viewcontrollers */,
 				F17353A3244CDBC900F975FC /* Main.storyboard */,
 				F17353A6244CDBDC00F975FC /* Assets.xcassets */,
 				F17353A8244CDBDC00F975FC /* LaunchScreen.storyboard */,
@@ -126,6 +163,46 @@
 				F17353C1244CDBDD00F975FC /* Info.plist */,
 			);
 			path = DimensionalriftGame.FraineUITests;
+			sourceTree = "<group>";
+		};
+		F17353CF244CDCC400F975FC /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				F17353DA244D79AF00F975FC /* controllers 1-5 */,
+				F18C51CA244FD4B000B197D3 /* controllers 6-10 */,
+				F18C51C8244FD44D00B197D3 /* user11ViewController.swift */,
+				F18C51CB244FE23200B197D3 /* user12ViewController.swift */,
+				F18C51CD244FE25A00B197D3 /* user13ViewController.swift */,
+				F18C51CF244FE28500B197D3 /* user14ViewController.swift */,
+				F18C51D1245002EF00B197D3 /* user15ViewController.swift */,
+				F18C51D32450034B00B197D3 /* user16ViewController.swift */,
+				F18C51D52450038800B197D3 /* user17ViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		F17353DA244D79AF00F975FC /* controllers 1-5 */ = {
+			isa = PBXGroup;
+			children = (
+				F17353CD244CDCBA00F975FC /* UserViewController.swift */,
+				F17353D0244CE5A400F975FC /* User2ViewController.swift */,
+				F17353D2244CE5C200F975FC /* user3ViewController.swift */,
+				F17353D4244CE65C00F975FC /* user4ViewController.swift */,
+				F17353D8244D72F700F975FC /* user5ViewController.swift */,
+			);
+			path = "controllers 1-5";
+			sourceTree = "<group>";
+		};
+		F18C51CA244FD4B000B197D3 /* controllers 6-10 */ = {
+			isa = PBXGroup;
+			children = (
+				F17353DB244D79FB00F975FC /* user6ViewController.swift */,
+				F17353DE244D7C3E00F975FC /* user7ViewController.swift */,
+				F17353E0244D7C9000F975FC /* user8ViewController.swift */,
+				F1BFB319244FA0ED0059CFE9 /* user9ViewController.swift */,
+				F18C51C6244FD3F700B197D3 /* user10ViewController.swift */,
+			);
+			path = "controllers 6-10";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +337,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17353A2244CDBC900F975FC /* ViewController.swift in Sources */,
+				F17353D3244CE5C200F975FC /* user3ViewController.swift in Sources */,
+				F18C51D0244FE28500B197D3 /* user14ViewController.swift in Sources */,
+				F17353D5244CE65C00F975FC /* user4ViewController.swift in Sources */,
+				F18C51D42450034B00B197D3 /* user16ViewController.swift in Sources */,
+				F17353DF244D7C3E00F975FC /* user7ViewController.swift in Sources */,
+				F18C51D2245002EF00B197D3 /* user15ViewController.swift in Sources */,
+				F17353CE244CDCBA00F975FC /* UserViewController.swift in Sources */,
 				F173539E244CDBC900F975FC /* AppDelegate.swift in Sources */,
+				F17353DC244D79FB00F975FC /* user6ViewController.swift in Sources */,
+				F18C51CE244FE25A00B197D3 /* user13ViewController.swift in Sources */,
+				F18C51C9244FD44D00B197D3 /* user11ViewController.swift in Sources */,
+				F1BFB31A244FA0ED0059CFE9 /* user9ViewController.swift in Sources */,
+				F17353D9244D72F700F975FC /* user5ViewController.swift in Sources */,
 				F17353A0244CDBC900F975FC /* SceneDelegate.swift in Sources */,
+				F18C51D62450038800B197D3 /* user17ViewController.swift in Sources */,
+				F17353E1244D7C9000F975FC /* user8ViewController.swift in Sources */,
+				F18C51CC244FE23200B197D3 /* user12ViewController.swift in Sources */,
+				F17353D1244CE5A400F975FC /* User2ViewController.swift in Sources */,
+				F18C51C7244FD3F800B197D3 /* user10ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +528,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DimensionalriftGame.Fraine/DimensionalriftGame.Fraine.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943GF8964N;
 				INFOPLIST_FILE = DimensionalriftGame.Fraine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fraine.kara.DimensionalriftGame-Fraine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,7 +549,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DimensionalriftGame.Fraine/DimensionalriftGame.Fraine.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943GF8964N;
 				INFOPLIST_FILE = DimensionalriftGame.Fraine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fraine.kara.DimensionalriftGame-Fraine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
