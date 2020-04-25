@@ -31,7 +31,17 @@
 		F18C51D2245002EF00B197D3 /* user15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D1245002EF00B197D3 /* user15ViewController.swift */; };
 		F18C51D42450034B00B197D3 /* user16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D32450034B00B197D3 /* user16ViewController.swift */; };
 		F18C51D62450038800B197D3 /* user17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D52450038800B197D3 /* user17ViewController.swift */; };
+		F18C51D92451368100B197D3 /* user18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51D82451368100B197D3 /* user18ViewController.swift */; };
+		F18C51DB245137C500B197D3 /* user19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51DA245137C500B197D3 /* user19ViewController.swift */; };
+		F18C51E02451385900B197D3 /* user20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51DF2451385900B197D3 /* user20ViewController.swift */; };
 		F1BFB31A244FA0ED0059CFE9 /* user9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFB319244FA0ED0059CFE9 /* user9ViewController.swift */; };
+		F1DBDE75245270B60019AE6A /* user21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE74245270B60019AE6A /* user21ViewController.swift */; };
+		F1DBDE77245270E90019AE6A /* user22ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE76245270E90019AE6A /* user22ViewController.swift */; };
+		F1DBDE79245270FC0019AE6A /* user23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE78245270FC0019AE6A /* user23ViewController.swift */; };
+		F1DBDE7B245271150019AE6A /* user24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE7A245271150019AE6A /* user24ViewController.swift */; };
+		F1DBDE7D2452712A0019AE6A /* user25ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE7C2452712A0019AE6A /* user25ViewController.swift */; };
+		F1DBDE7F245271400019AE6A /* user26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE7E245271400019AE6A /* user26ViewController.swift */; };
+		F1DBDE81245271560019AE6A /* user27ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBDE80245271560019AE6A /* user27ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +93,17 @@
 		F18C51D1245002EF00B197D3 /* user15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user15ViewController.swift; sourceTree = "<group>"; };
 		F18C51D32450034B00B197D3 /* user16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user16ViewController.swift; sourceTree = "<group>"; };
 		F18C51D52450038800B197D3 /* user17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user17ViewController.swift; sourceTree = "<group>"; };
+		F18C51D82451368100B197D3 /* user18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user18ViewController.swift; sourceTree = "<group>"; };
+		F18C51DA245137C500B197D3 /* user19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user19ViewController.swift; sourceTree = "<group>"; };
+		F18C51DF2451385900B197D3 /* user20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user20ViewController.swift; sourceTree = "<group>"; };
 		F1BFB319244FA0ED0059CFE9 /* user9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user9ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE74245270B60019AE6A /* user21ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user21ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE76245270E90019AE6A /* user22ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user22ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE78245270FC0019AE6A /* user23ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user23ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE7A245271150019AE6A /* user24ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user24ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE7C2452712A0019AE6A /* user25ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user25ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE7E245271400019AE6A /* user26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user26ViewController.swift; sourceTree = "<group>"; };
+		F1DBDE80245271560019AE6A /* user27ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user27ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,13 +190,9 @@
 			children = (
 				F17353DA244D79AF00F975FC /* controllers 1-5 */,
 				F18C51CA244FD4B000B197D3 /* controllers 6-10 */,
-				F18C51C8244FD44D00B197D3 /* user11ViewController.swift */,
-				F18C51CB244FE23200B197D3 /* user12ViewController.swift */,
-				F18C51CD244FE25A00B197D3 /* user13ViewController.swift */,
-				F18C51CF244FE28500B197D3 /* user14ViewController.swift */,
-				F18C51D1245002EF00B197D3 /* user15ViewController.swift */,
-				F18C51D32450034B00B197D3 /* user16ViewController.swift */,
-				F18C51D52450038800B197D3 /* user17ViewController.swift */,
+				F18C51D72450CFEC00B197D3 /* controllers 11-15 */,
+				F18C51DE2451381F00B197D3 /* Mycontroller 16-20 */,
+				F1DBDE83245272390019AE6A /* MY controllers 26-30 */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -203,6 +219,52 @@
 				F18C51C6244FD3F700B197D3 /* user10ViewController.swift */,
 			);
 			path = "controllers 6-10";
+			sourceTree = "<group>";
+		};
+		F18C51D72450CFEC00B197D3 /* controllers 11-15 */ = {
+			isa = PBXGroup;
+			children = (
+				F18C51C8244FD44D00B197D3 /* user11ViewController.swift */,
+				F18C51CB244FE23200B197D3 /* user12ViewController.swift */,
+				F18C51CD244FE25A00B197D3 /* user13ViewController.swift */,
+				F18C51CF244FE28500B197D3 /* user14ViewController.swift */,
+				F18C51D1245002EF00B197D3 /* user15ViewController.swift */,
+			);
+			path = "controllers 11-15";
+			sourceTree = "<group>";
+		};
+		F18C51DE2451381F00B197D3 /* Mycontroller 16-20 */ = {
+			isa = PBXGroup;
+			children = (
+				F18C51D32450034B00B197D3 /* user16ViewController.swift */,
+				F18C51D52450038800B197D3 /* user17ViewController.swift */,
+				F18C51D82451368100B197D3 /* user18ViewController.swift */,
+				F18C51DA245137C500B197D3 /* user19ViewController.swift */,
+				F1DBDE82245271720019AE6A /* mycontrollers 20-25 */,
+			);
+			path = "Mycontroller 16-20";
+			sourceTree = "<group>";
+		};
+		F1DBDE82245271720019AE6A /* mycontrollers 20-25 */ = {
+			isa = PBXGroup;
+			children = (
+				F18C51DF2451385900B197D3 /* user20ViewController.swift */,
+				F1DBDE74245270B60019AE6A /* user21ViewController.swift */,
+				F1DBDE76245270E90019AE6A /* user22ViewController.swift */,
+				F1DBDE78245270FC0019AE6A /* user23ViewController.swift */,
+				F1DBDE7A245271150019AE6A /* user24ViewController.swift */,
+				F1DBDE7C2452712A0019AE6A /* user25ViewController.swift */,
+			);
+			path = "mycontrollers 20-25";
+			sourceTree = "<group>";
+		};
+		F1DBDE83245272390019AE6A /* MY controllers 26-30 */ = {
+			isa = PBXGroup;
+			children = (
+				F1DBDE7E245271400019AE6A /* user26ViewController.swift */,
+				F1DBDE80245271560019AE6A /* user27ViewController.swift */,
+			);
+			path = "MY controllers 26-30";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,14 +400,23 @@
 			files = (
 				F17353A2244CDBC900F975FC /* ViewController.swift in Sources */,
 				F17353D3244CE5C200F975FC /* user3ViewController.swift in Sources */,
+				F1DBDE7D2452712A0019AE6A /* user25ViewController.swift in Sources */,
 				F18C51D0244FE28500B197D3 /* user14ViewController.swift in Sources */,
 				F17353D5244CE65C00F975FC /* user4ViewController.swift in Sources */,
+				F1DBDE7F245271400019AE6A /* user26ViewController.swift in Sources */,
 				F18C51D42450034B00B197D3 /* user16ViewController.swift in Sources */,
+				F1DBDE77245270E90019AE6A /* user22ViewController.swift in Sources */,
+				F1DBDE79245270FC0019AE6A /* user23ViewController.swift in Sources */,
+				F18C51E02451385900B197D3 /* user20ViewController.swift in Sources */,
+				F1DBDE7B245271150019AE6A /* user24ViewController.swift in Sources */,
+				F1DBDE75245270B60019AE6A /* user21ViewController.swift in Sources */,
 				F17353DF244D7C3E00F975FC /* user7ViewController.swift in Sources */,
 				F18C51D2245002EF00B197D3 /* user15ViewController.swift in Sources */,
 				F17353CE244CDCBA00F975FC /* UserViewController.swift in Sources */,
 				F173539E244CDBC900F975FC /* AppDelegate.swift in Sources */,
 				F17353DC244D79FB00F975FC /* user6ViewController.swift in Sources */,
+				F18C51D92451368100B197D3 /* user18ViewController.swift in Sources */,
+				F18C51DB245137C500B197D3 /* user19ViewController.swift in Sources */,
 				F18C51CE244FE25A00B197D3 /* user13ViewController.swift in Sources */,
 				F18C51C9244FD44D00B197D3 /* user11ViewController.swift in Sources */,
 				F1BFB31A244FA0ED0059CFE9 /* user9ViewController.swift in Sources */,
@@ -355,6 +426,7 @@
 				F17353E1244D7C9000F975FC /* user8ViewController.swift in Sources */,
 				F18C51CC244FE23200B197D3 /* user12ViewController.swift in Sources */,
 				F17353D1244CE5A400F975FC /* User2ViewController.swift in Sources */,
+				F1DBDE81245271560019AE6A /* user27ViewController.swift in Sources */,
 				F18C51C7244FD3F800B197D3 /* user10ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +538,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -519,6 +592,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -581,6 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fraine.kara.DimensionalriftGame-FraineTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimensionalriftGame.Fraine.app/DimensionalriftGame.Fraine";
@@ -602,6 +677,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fraine.kara.DimensionalriftGame-FraineTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimensionalriftGame.Fraine.app/DimensionalriftGame.Fraine";
