@@ -1,21 +1,15 @@
 //
-//  UserViewController.swift
+//  43ViewController.swift
 //  DimensionalriftGame.Fraine
 //
-//  Created by Kara Fraine on 4/19/20.
+//  Created by Kara Fraine on 4/25/20.
 //  Copyright © 2020 Kara Fraine. All rights reserved.
 //
 
 import UIKit
 
-class UserViewController: UIViewController {
-    
-    @IBOutlet weak var gameTextLable: UILabel!
-   
-  
+class _3ViewController: UIViewController {
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

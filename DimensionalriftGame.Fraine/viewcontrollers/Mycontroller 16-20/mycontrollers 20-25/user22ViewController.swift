@@ -9,7 +9,23 @@
 import UIKit
 
 class user22ViewController: UIViewController {
+    
+    @IBOutlet weak var gameTextLabel: UILabel!
+    
+    let storyline = [ "Lord Hermes continues to education you on the Goddess. That she is the Goddess of Marriage and Birth.", "Lord Hermes Tells you of the rules in Olympus before you go in. Once Done you are allowed to enter Olympus."]
 
+    var textpostion = 0
+    
+    
+    @IBAction func storyContinueonTap(_ sender: Any) { if textpostion > storyline.count-1 {performSegue(withIdentifier: "heraSegue", sender:(Any).self)
+        
+    }else{ gameTextLabel.text = storyline[textpostion]
+        textpostion += 1
+        
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

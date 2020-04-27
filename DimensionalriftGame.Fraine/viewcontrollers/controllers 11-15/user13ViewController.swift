@@ -9,7 +9,7 @@
 import UIKit
 
 class user13ViewController: UIViewController {
-    let dialouge = ["You approachthe home of Lord Dionysus you walk closer the odd familiar smell of the vineyard draws you closer."]
+    let dialouge = ["You approach and the smell of the vineyard reminds you of the liquid you drank."]
     var currentposition = 0
     @IBOutlet weak var gametextlabel: UILabel!
     @IBOutlet weak var gameArt: UIImageView!

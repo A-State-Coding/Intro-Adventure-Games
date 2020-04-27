@@ -9,7 +9,7 @@
 import UIKit
 
 class user11ViewController: UIViewController {
-    let diaglouge = ["Lord Posedion: You, child! how dare you forsaken my beach with your ignorant ways?!, Lord Posedion looks upon you, and sees the scarlet cloak, Lord Posedion: I see you are the mortal, protected by Lord hermes and Lady Vesta. I have head of your quest and you may take my prize, My only task for you is to never reveal the location of this place of I shall seek you myself and take action for taking advantage of my gracious mercy."]
+    let diaglouge = ["Lord Posedion: You, child! how dare you forsaken my beach with your ignorant ways?!"," Lord Posedion looks upon you, and sees the scarlet cloak.","Lord Posedion: I see you are the mortal, protected by Lord hermes and Lady Vesta."," I have head of your quest and you may take my prize."," My only task for you is to never reveal the location of this place."," If you do I shall seek you myself and take action for taking advantage of my gracious mercy."]
 
     var currentpostiion = 0
  

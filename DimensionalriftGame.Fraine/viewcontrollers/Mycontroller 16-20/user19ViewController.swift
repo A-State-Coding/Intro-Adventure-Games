@@ -9,11 +9,18 @@
 import UIKit
 
 class user19ViewController: UIViewController {
+    
+    let language = ["Lord Dionysus: Listen kid get me my wine.You are given a jug to take with you."," Lord Dionysus: The jug is magickal and turns any grapes into wine.", "You look at him confused he sighs and sits up.","Lord Dionysus speaks: The Gold ones please and then I shall assist you."," You turn and go to the trees in the vineyard that hold the golden grapes."]
+    
+    
 
-    let language = ["Lord Dionysus: Listen kid get me my wine.You are given a jug to take with you, Lord Dionysus: The jug is magickal and turns any grapes into wine, You look at him confused he sighs and sits up., Lord Dionysus: The Gold ones please and then I shall assist you., You turn and go to the trees in the vineyard that hold the golden grapes."]
+    
+    
     
     var currentpostition = 0
     @IBOutlet weak var gameTextlabel: UILabel!
+    
+    
     
     @IBOutlet weak var textContinueButton: UIButton!
     

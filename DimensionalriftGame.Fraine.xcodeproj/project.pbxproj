@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F141741B2456145F00910296 /* user43ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141741A2456145F00910296 /* user43ViewController.swift */; };
+		F141741D24563FB400910296 /* user51ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141741C24563FB400910296 /* user51ViewController.swift */; };
+		F141741F24563FDE00910296 /* user52ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141741E24563FDE00910296 /* user52ViewController.swift */; };
+		F14174242456401700910296 /* user54ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14174232456401700910296 /* user54ViewController.swift */; };
+		F14174262456402B00910296 /* user55ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14174252456402B00910296 /* user55ViewController.swift */; };
+		F14174282456403800910296 /* user56ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14174272456403800910296 /* user56ViewController.swift */; };
+		F141742A2456404900910296 /* user57ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14174292456404900910296 /* user57ViewController.swift */; };
+		F141742C2456405E00910296 /* user58ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141742B2456405E00910296 /* user58ViewController.swift */; };
+		F141742E2456406F00910296 /* user59ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141742D2456406F00910296 /* user59ViewController.swift */; };
+		F14174302456407A00910296 /* user60ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141742F2456407A00910296 /* user60ViewController.swift */; };
+		F1417432245640D400910296 /* user53ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1417431245640D400910296 /* user53ViewController.swift */; };
+		F1417435245653E100910296 /* user61ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1417434245653E100910296 /* user61ViewController.swift */; };
+		F1417437245653F400910296 /* user62ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1417436245653F400910296 /* user62ViewController.swift */; };
+		F14174392456540400910296 /* user63ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14174382456540400910296 /* user63ViewController.swift */; };
+		F141743B2456541600910296 /* user64ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141743A2456541600910296 /* user64ViewController.swift */; };
+		F141743D2456542300910296 /* user65ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141743C2456542300910296 /* user65ViewController.swift */; };
+		F141743F2456543C00910296 /* user66ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141743E2456543C00910296 /* user66ViewController.swift */; };
 		F173539E244CDBC900F975FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173539D244CDBC900F975FC /* AppDelegate.swift */; };
 		F17353A0244CDBC900F975FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173539F244CDBC900F975FC /* SceneDelegate.swift */; };
 		F17353A2244CDBC900F975FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353A1244CDBC900F975FC /* ViewController.swift */; };
@@ -23,6 +40,28 @@
 		F17353DC244D79FB00F975FC /* user6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353DB244D79FB00F975FC /* user6ViewController.swift */; };
 		F17353DF244D7C3E00F975FC /* user7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353DE244D7C3E00F975FC /* user7ViewController.swift */; };
 		F17353E1244D7C9000F975FC /* user8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17353E0244D7C9000F975FC /* user8ViewController.swift */; };
+		F1802CDF2455307100416BB1 /* user28ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CDE2455307100416BB1 /* user28ViewController.swift */; };
+		F1802CE12455309F00416BB1 /* user29ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CE02455309F00416BB1 /* user29ViewController.swift */; };
+		F1802CE3245530C400416BB1 /* user30ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CE2245530C400416BB1 /* user30ViewController.swift */; };
+		F1802CE5245530DB00416BB1 /* user31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CE4245530DB00416BB1 /* user31ViewController.swift */; };
+		F1802CE7245530F700416BB1 /* user32ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CE6245530F700416BB1 /* user32ViewController.swift */; };
+		F1802CE92455310B00416BB1 /* uaer33ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CE82455310B00416BB1 /* uaer33ViewController.swift */; };
+		F1802CEB2455311D00416BB1 /* user34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CEA2455311D00416BB1 /* user34ViewController.swift */; };
+		F1802CED2455313100416BB1 /* user35ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CEC2455313100416BB1 /* user35ViewController.swift */; };
+		F1802CEF2455313D00416BB1 /* user36ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CEE2455313D00416BB1 /* user36ViewController.swift */; };
+		F1802CF12455314B00416BB1 /* user37ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CF02455314B00416BB1 /* user37ViewController.swift */; };
+		F1802CF32455315A00416BB1 /* user38ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CF22455315A00416BB1 /* user38ViewController.swift */; };
+		F1802CF52455316A00416BB1 /* user39ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CF42455316A00416BB1 /* user39ViewController.swift */; };
+		F1802CF72455317900416BB1 /* user40ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CF62455317900416BB1 /* user40ViewController.swift */; };
+		F1802CFB245534FB00416BB1 /* user41ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CFA245534FB00416BB1 /* user41ViewController.swift */; };
+		F1802CFD2455352200416BB1 /* user42ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802CFC2455352200416BB1 /* user42ViewController.swift */; };
+		F1802D012455354100416BB1 /* user44ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D002455354100416BB1 /* user44ViewController.swift */; };
+		F1802D032455354E00416BB1 /* user45ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D022455354E00416BB1 /* user45ViewController.swift */; };
+		F1802D052455355F00416BB1 /* user46ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D042455355F00416BB1 /* user46ViewController.swift */; };
+		F1802D072455356C00416BB1 /* user47ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D062455356C00416BB1 /* user47ViewController.swift */; };
+		F1802D092455357900416BB1 /* user48ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D082455357900416BB1 /* user48ViewController.swift */; };
+		F1802D0B2455358900416BB1 /* user49ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D0A2455358900416BB1 /* user49ViewController.swift */; };
+		F1802D0D2455359600416BB1 /* user50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1802D0C2455359600416BB1 /* user50ViewController.swift */; };
 		F18C51C7244FD3F800B197D3 /* user10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51C6244FD3F700B197D3 /* user10ViewController.swift */; };
 		F18C51C9244FD44D00B197D3 /* user11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51C8244FD44D00B197D3 /* user11ViewController.swift */; };
 		F18C51CC244FE23200B197D3 /* user12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C51CB244FE23200B197D3 /* user12ViewController.swift */; };
@@ -62,6 +101,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F141741A2456145F00910296 /* user43ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user43ViewController.swift; sourceTree = "<group>"; };
+		F141741C24563FB400910296 /* user51ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user51ViewController.swift; sourceTree = "<group>"; };
+		F141741E24563FDE00910296 /* user52ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user52ViewController.swift; sourceTree = "<group>"; };
+		F14174232456401700910296 /* user54ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user54ViewController.swift; sourceTree = "<group>"; };
+		F14174252456402B00910296 /* user55ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user55ViewController.swift; sourceTree = "<group>"; };
+		F14174272456403800910296 /* user56ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user56ViewController.swift; sourceTree = "<group>"; };
+		F14174292456404900910296 /* user57ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user57ViewController.swift; sourceTree = "<group>"; };
+		F141742B2456405E00910296 /* user58ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user58ViewController.swift; sourceTree = "<group>"; };
+		F141742D2456406F00910296 /* user59ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user59ViewController.swift; sourceTree = "<group>"; };
+		F141742F2456407A00910296 /* user60ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user60ViewController.swift; sourceTree = "<group>"; };
+		F1417431245640D400910296 /* user53ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user53ViewController.swift; sourceTree = "<group>"; };
+		F1417434245653E100910296 /* user61ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user61ViewController.swift; sourceTree = "<group>"; };
+		F1417436245653F400910296 /* user62ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user62ViewController.swift; sourceTree = "<group>"; };
+		F14174382456540400910296 /* user63ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user63ViewController.swift; sourceTree = "<group>"; };
+		F141743A2456541600910296 /* user64ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user64ViewController.swift; sourceTree = "<group>"; };
+		F141743C2456542300910296 /* user65ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user65ViewController.swift; sourceTree = "<group>"; };
+		F141743E2456543C00910296 /* user66ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user66ViewController.swift; sourceTree = "<group>"; };
 		F173539A244CDBC900F975FC /* DimensionalriftGame.Fraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimensionalriftGame.Fraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F173539D244CDBC900F975FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F173539F244CDBC900F975FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +141,28 @@
 		F17353DD244D7AEE00F975FC /* DimensionalriftGame.Fraine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DimensionalriftGame.Fraine.entitlements; sourceTree = "<group>"; };
 		F17353DE244D7C3E00F975FC /* user7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user7ViewController.swift; sourceTree = "<group>"; };
 		F17353E0244D7C9000F975FC /* user8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user8ViewController.swift; sourceTree = "<group>"; };
+		F1802CDE2455307100416BB1 /* user28ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user28ViewController.swift; sourceTree = "<group>"; };
+		F1802CE02455309F00416BB1 /* user29ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user29ViewController.swift; sourceTree = "<group>"; };
+		F1802CE2245530C400416BB1 /* user30ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user30ViewController.swift; sourceTree = "<group>"; };
+		F1802CE4245530DB00416BB1 /* user31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user31ViewController.swift; sourceTree = "<group>"; };
+		F1802CE6245530F700416BB1 /* user32ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user32ViewController.swift; sourceTree = "<group>"; };
+		F1802CE82455310B00416BB1 /* uaer33ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uaer33ViewController.swift; sourceTree = "<group>"; };
+		F1802CEA2455311D00416BB1 /* user34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user34ViewController.swift; sourceTree = "<group>"; };
+		F1802CEC2455313100416BB1 /* user35ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user35ViewController.swift; sourceTree = "<group>"; };
+		F1802CEE2455313D00416BB1 /* user36ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user36ViewController.swift; sourceTree = "<group>"; };
+		F1802CF02455314B00416BB1 /* user37ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user37ViewController.swift; sourceTree = "<group>"; };
+		F1802CF22455315A00416BB1 /* user38ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user38ViewController.swift; sourceTree = "<group>"; };
+		F1802CF42455316A00416BB1 /* user39ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user39ViewController.swift; sourceTree = "<group>"; };
+		F1802CF62455317900416BB1 /* user40ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user40ViewController.swift; sourceTree = "<group>"; };
+		F1802CFA245534FB00416BB1 /* user41ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user41ViewController.swift; sourceTree = "<group>"; };
+		F1802CFC2455352200416BB1 /* user42ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user42ViewController.swift; sourceTree = "<group>"; };
+		F1802D002455354100416BB1 /* user44ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user44ViewController.swift; sourceTree = "<group>"; };
+		F1802D022455354E00416BB1 /* user45ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user45ViewController.swift; sourceTree = "<group>"; };
+		F1802D042455355F00416BB1 /* user46ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user46ViewController.swift; sourceTree = "<group>"; };
+		F1802D062455356C00416BB1 /* user47ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user47ViewController.swift; sourceTree = "<group>"; };
+		F1802D082455357900416BB1 /* user48ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user48ViewController.swift; sourceTree = "<group>"; };
+		F1802D0A2455358900416BB1 /* user49ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user49ViewController.swift; sourceTree = "<group>"; };
+		F1802D0C2455359600416BB1 /* user50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user50ViewController.swift; sourceTree = "<group>"; };
 		F18C51C6244FD3F700B197D3 /* user10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user10ViewController.swift; sourceTree = "<group>"; };
 		F18C51C8244FD44D00B197D3 /* user11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user11ViewController.swift; sourceTree = "<group>"; };
 		F18C51CB244FE23200B197D3 /* user12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user12ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +209,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F141742224563FF200910296 /* controller 51-55 */ = {
+			isa = PBXGroup;
+			children = (
+				F141741C24563FB400910296 /* user51ViewController.swift */,
+				F141741E24563FDE00910296 /* user52ViewController.swift */,
+				F1417431245640D400910296 /* user53ViewController.swift */,
+				F14174232456401700910296 /* user54ViewController.swift */,
+				F14174252456402B00910296 /* user55ViewController.swift */,
+			);
+			path = "controller 51-55";
+			sourceTree = "<group>";
+		};
+		F1417433245640EE00910296 /* controllers 56-60 */ = {
+			isa = PBXGroup;
+			children = (
+				F14174272456403800910296 /* user56ViewController.swift */,
+				F14174292456404900910296 /* user57ViewController.swift */,
+				F141742B2456405E00910296 /* user58ViewController.swift */,
+				F141742D2456406F00910296 /* user59ViewController.swift */,
+				F141742F2456407A00910296 /* user60ViewController.swift */,
+				F17353A3244CDBC900F975FC /* Main.storyboard */,
+			);
+			path = "controllers 56-60";
+			sourceTree = "<group>";
+		};
+		F14174402456548F00910296 /* controllers 61-65 */ = {
+			isa = PBXGroup;
+			children = (
+				F1417434245653E100910296 /* user61ViewController.swift */,
+				F1417436245653F400910296 /* user62ViewController.swift */,
+				F14174382456540400910296 /* user63ViewController.swift */,
+				F141743A2456541600910296 /* user64ViewController.swift */,
+				F141743C2456542300910296 /* user65ViewController.swift */,
+			);
+			path = "controllers 61-65";
+			sourceTree = "<group>";
+		};
 		F1735391244CDBC900F975FC = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +274,12 @@
 				F173539F244CDBC900F975FC /* SceneDelegate.swift */,
 				F17353A1244CDBC900F975FC /* ViewController.swift */,
 				F17353CF244CDCC400F975FC /* viewcontrollers */,
-				F17353A3244CDBC900F975FC /* Main.storyboard */,
+				F1802D0E245535A200416BB1 /* Controller 41-45 */,
+				F1802D0F245535D800416BB1 /* controllers 45-50 */,
+				F141742224563FF200910296 /* controller 51-55 */,
+				F1417433245640EE00910296 /* controllers 56-60 */,
+				F14174402456548F00910296 /* controllers 61-65 */,
+				F141743E2456543C00910296 /* user66ViewController.swift */,
 				F17353A6244CDBDC00F975FC /* Assets.xcassets */,
 				F17353A8244CDBDC00F975FC /* LaunchScreen.storyboard */,
 				F17353AB244CDBDC00F975FC /* Info.plist */,
@@ -193,6 +313,8 @@
 				F18C51D72450CFEC00B197D3 /* controllers 11-15 */,
 				F18C51DE2451381F00B197D3 /* Mycontroller 16-20 */,
 				F1DBDE83245272390019AE6A /* MY controllers 26-30 */,
+				F1802CF82455319200416BB1 /* mycontrollers 31-35 */,
+				F1802CF9245531D500416BB1 /* Controllers 36-40 */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -207,6 +329,54 @@
 				F17353D8244D72F700F975FC /* user5ViewController.swift */,
 			);
 			path = "controllers 1-5";
+			sourceTree = "<group>";
+		};
+		F1802CF82455319200416BB1 /* mycontrollers 31-35 */ = {
+			isa = PBXGroup;
+			children = (
+				F1802CE4245530DB00416BB1 /* user31ViewController.swift */,
+				F1802CE6245530F700416BB1 /* user32ViewController.swift */,
+				F1802CE82455310B00416BB1 /* uaer33ViewController.swift */,
+				F1802CEA2455311D00416BB1 /* user34ViewController.swift */,
+				F1802CEC2455313100416BB1 /* user35ViewController.swift */,
+			);
+			path = "mycontrollers 31-35";
+			sourceTree = "<group>";
+		};
+		F1802CF9245531D500416BB1 /* Controllers 36-40 */ = {
+			isa = PBXGroup;
+			children = (
+				F1802CEE2455313D00416BB1 /* user36ViewController.swift */,
+				F1802CF02455314B00416BB1 /* user37ViewController.swift */,
+				F1802CF22455315A00416BB1 /* user38ViewController.swift */,
+				F1802CF42455316A00416BB1 /* user39ViewController.swift */,
+				F1802CF62455317900416BB1 /* user40ViewController.swift */,
+			);
+			path = "Controllers 36-40";
+			sourceTree = "<group>";
+		};
+		F1802D0E245535A200416BB1 /* Controller 41-45 */ = {
+			isa = PBXGroup;
+			children = (
+				F1802CFA245534FB00416BB1 /* user41ViewController.swift */,
+				F1802CFC2455352200416BB1 /* user42ViewController.swift */,
+				F141741A2456145F00910296 /* user43ViewController.swift */,
+				F1802D002455354100416BB1 /* user44ViewController.swift */,
+			);
+			path = "Controller 41-45";
+			sourceTree = "<group>";
+		};
+		F1802D0F245535D800416BB1 /* controllers 45-50 */ = {
+			isa = PBXGroup;
+			children = (
+				F1802D022455354E00416BB1 /* user45ViewController.swift */,
+				F1802D042455355F00416BB1 /* user46ViewController.swift */,
+				F1802D062455356C00416BB1 /* user47ViewController.swift */,
+				F1802D082455357900416BB1 /* user48ViewController.swift */,
+				F1802D0A2455358900416BB1 /* user49ViewController.swift */,
+				F1802D0C2455359600416BB1 /* user50ViewController.swift */,
+			);
+			path = "controllers 45-50";
 			sourceTree = "<group>";
 		};
 		F18C51CA244FD4B000B197D3 /* controllers 6-10 */ = {
@@ -263,6 +433,9 @@
 			children = (
 				F1DBDE7E245271400019AE6A /* user26ViewController.swift */,
 				F1DBDE80245271560019AE6A /* user27ViewController.swift */,
+				F1802CDE2455307100416BB1 /* user28ViewController.swift */,
+				F1802CE02455309F00416BB1 /* user29ViewController.swift */,
+				F1802CE2245530C400416BB1 /* user30ViewController.swift */,
 			);
 			path = "MY controllers 26-30";
 			sourceTree = "<group>";
@@ -401,33 +574,72 @@
 				F17353A2244CDBC900F975FC /* ViewController.swift in Sources */,
 				F17353D3244CE5C200F975FC /* user3ViewController.swift in Sources */,
 				F1DBDE7D2452712A0019AE6A /* user25ViewController.swift in Sources */,
+				F141742E2456406F00910296 /* user59ViewController.swift in Sources */,
 				F18C51D0244FE28500B197D3 /* user14ViewController.swift in Sources */,
 				F17353D5244CE65C00F975FC /* user4ViewController.swift in Sources */,
 				F1DBDE7F245271400019AE6A /* user26ViewController.swift in Sources */,
+				F1417437245653F400910296 /* user62ViewController.swift in Sources */,
 				F18C51D42450034B00B197D3 /* user16ViewController.swift in Sources */,
+				F141742A2456404900910296 /* user57ViewController.swift in Sources */,
+				F14174262456402B00910296 /* user55ViewController.swift in Sources */,
 				F1DBDE77245270E90019AE6A /* user22ViewController.swift in Sources */,
+				F1802CE7245530F700416BB1 /* user32ViewController.swift in Sources */,
+				F141741F24563FDE00910296 /* user52ViewController.swift in Sources */,
+				F1802CED2455313100416BB1 /* user35ViewController.swift in Sources */,
 				F1DBDE79245270FC0019AE6A /* user23ViewController.swift in Sources */,
 				F18C51E02451385900B197D3 /* user20ViewController.swift in Sources */,
+				F1802CEB2455311D00416BB1 /* user34ViewController.swift in Sources */,
 				F1DBDE7B245271150019AE6A /* user24ViewController.swift in Sources */,
 				F1DBDE75245270B60019AE6A /* user21ViewController.swift in Sources */,
+				F141741D24563FB400910296 /* user51ViewController.swift in Sources */,
 				F17353DF244D7C3E00F975FC /* user7ViewController.swift in Sources */,
+				F1802CFB245534FB00416BB1 /* user41ViewController.swift in Sources */,
 				F18C51D2245002EF00B197D3 /* user15ViewController.swift in Sources */,
+				F14174392456540400910296 /* user63ViewController.swift in Sources */,
+				F141743B2456541600910296 /* user64ViewController.swift in Sources */,
+				F141743F2456543C00910296 /* user66ViewController.swift in Sources */,
 				F17353CE244CDCBA00F975FC /* UserViewController.swift in Sources */,
 				F173539E244CDBC900F975FC /* AppDelegate.swift in Sources */,
+				F1802D0B2455358900416BB1 /* user49ViewController.swift in Sources */,
+				F1417435245653E100910296 /* user61ViewController.swift in Sources */,
+				F1802D012455354100416BB1 /* user44ViewController.swift in Sources */,
 				F17353DC244D79FB00F975FC /* user6ViewController.swift in Sources */,
+				F141742C2456405E00910296 /* user58ViewController.swift in Sources */,
+				F1802D092455357900416BB1 /* user48ViewController.swift in Sources */,
+				F1802CFD2455352200416BB1 /* user42ViewController.swift in Sources */,
+				F1802CE5245530DB00416BB1 /* user31ViewController.swift in Sources */,
+				F141741B2456145F00910296 /* user43ViewController.swift in Sources */,
+				F1802CF12455314B00416BB1 /* user37ViewController.swift in Sources */,
 				F18C51D92451368100B197D3 /* user18ViewController.swift in Sources */,
 				F18C51DB245137C500B197D3 /* user19ViewController.swift in Sources */,
 				F18C51CE244FE25A00B197D3 /* user13ViewController.swift in Sources */,
+				F1417432245640D400910296 /* user53ViewController.swift in Sources */,
+				F1802CF52455316A00416BB1 /* user39ViewController.swift in Sources */,
+				F1802CDF2455307100416BB1 /* user28ViewController.swift in Sources */,
+				F14174242456401700910296 /* user54ViewController.swift in Sources */,
 				F18C51C9244FD44D00B197D3 /* user11ViewController.swift in Sources */,
+				F1802CEF2455313D00416BB1 /* user36ViewController.swift in Sources */,
 				F1BFB31A244FA0ED0059CFE9 /* user9ViewController.swift in Sources */,
+				F14174302456407A00910296 /* user60ViewController.swift in Sources */,
 				F17353D9244D72F700F975FC /* user5ViewController.swift in Sources */,
 				F17353A0244CDBC900F975FC /* SceneDelegate.swift in Sources */,
 				F18C51D62450038800B197D3 /* user17ViewController.swift in Sources */,
 				F17353E1244D7C9000F975FC /* user8ViewController.swift in Sources */,
+				F1802D052455355F00416BB1 /* user46ViewController.swift in Sources */,
+				F141743D2456542300910296 /* user65ViewController.swift in Sources */,
 				F18C51CC244FE23200B197D3 /* user12ViewController.swift in Sources */,
+				F14174282456403800910296 /* user56ViewController.swift in Sources */,
+				F1802CE3245530C400416BB1 /* user30ViewController.swift in Sources */,
+				F1802CF72455317900416BB1 /* user40ViewController.swift in Sources */,
+				F1802CF32455315A00416BB1 /* user38ViewController.swift in Sources */,
+				F1802D0D2455359600416BB1 /* user50ViewController.swift in Sources */,
 				F17353D1244CE5A400F975FC /* User2ViewController.swift in Sources */,
+				F1802D072455356C00416BB1 /* user47ViewController.swift in Sources */,
 				F1DBDE81245271560019AE6A /* user27ViewController.swift in Sources */,
+				F1802D032455354E00416BB1 /* user45ViewController.swift in Sources */,
+				F1802CE12455309F00416BB1 /* user29ViewController.swift in Sources */,
 				F18C51C7244FD3F800B197D3 /* user10ViewController.swift in Sources */,
+				F1802CE92455310B00416BB1 /* uaer33ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,8 +750,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				Swift_enable_batch_mode = NO;
 			};
 			name = Debug;
 		};
@@ -592,8 +804,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				Swift_enable_batch_mode = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
