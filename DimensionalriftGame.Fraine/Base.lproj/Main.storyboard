@@ -225,6 +225,9 @@
                                 <state key="normal" title="Go Forward">
                                     <color key="titleColor" red="1" green="0.97461829560000002" blue="0.89019244109999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZXf-jz-cU5" kind="presentation" id="48p-KK-CK9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a1o-dQ-lxc">
                                 <rect key="frame" x="310" y="594" width="104" height="55"/>
@@ -236,6 +239,7 @@
                                 </state>
                                 <connections>
                                     <action selector="returnbutton:" destination="ZZV-aU-loe" eventType="touchUpInside" id="9af-3e-L9B"/>
+                                    <segue destination="ZyO-ue-buf" kind="presentation" id="74M-cS-Rag"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -246,7 +250,129 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F6p-D0-Sl7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="ZZV-aU-loe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4131.884057971015" y="-591.29464285714278"/>
+            <point key="canvasLocation" x="3736" y="-589"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jmW-db-VUc">
+            <objects>
+                <viewController id="ZyO-ue-buf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eX1-xI-0LJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="vestahome" translatesAutoresizingMaskIntoConstraints="NO" id="AH4-Xt-SjA">
+                                <rect key="frame" x="-91" y="-5" width="612" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pgT-TA-5ht"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfC-Vg-ZBI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4714" y="-567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Pi-je-F2K">
+            <objects>
+                <viewController id="5bZ-KQ-2Jc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XdF-g1-Ygd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="vestahome" translatesAutoresizingMaskIntoConstraints="NO" id="rbF-T2-GG6">
+                                <rect key="frame" x="-22" y="0.0" width="513" height="753"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fontusmeet" translatesAutoresizingMaskIntoConstraints="NO" id="KHi-9J-3xS">
+                                <rect key="frame" x="123" y="-94" width="421" height="339"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wsA-U9-iBd"/>
+                    </view>
+                    <connections>
+                        <segue destination="XuS-43-0dX" kind="presentation" id="uJ9-9T-lE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kqZ-kc-grm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5625" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LxA-wa-gWh">
+            <objects>
+                <viewController id="ZXf-jz-cU5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1T-S6-iwI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="springwater" translatesAutoresizingMaskIntoConstraints="NO" id="Ump-1v-ll2">
+                                <rect key="frame" x="-100" y="-28" width="612" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kXx-I6-dbV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F45-Vg-iot" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3994" y="-1276"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xu4-iD-uda">
+            <objects>
+                <viewController id="odh-dR-BxW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dle-5u-bsp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="drowming" translatesAutoresizingMaskIntoConstraints="NO" id="Cu6-Dy-IXq">
+                                <rect key="frame" x="-28" y="-27" width="555" height="993"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FTB-3z-tP4"/>
+                    </view>
+                    <connections>
+                        <segue destination="2oU-kO-ESO" kind="presentation" id="ENv-vB-m9i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Eq-AT-cst" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4793" y="-1276"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P4S-x1-tVG">
+            <objects>
+                <viewController id="2oU-kO-ESO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7H1-Eb-lwd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="springwater" translatesAutoresizingMaskIntoConstraints="NO" id="wYv-x6-3n0">
+                                <rect key="frame" x="-89" y="13" width="612" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fontusmeet" translatesAutoresizingMaskIntoConstraints="NO" id="naA-5T-O6l">
+                                <rect key="frame" x="0.0" y="113" width="490" height="692"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ih0-ac-qLq"/>
+                    </view>
+                    <connections>
+                        <segue destination="5bZ-KQ-2Jc" kind="presentation" id="sN3-Kl-p3C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQ9-df-bid" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5590" y="-1262"/>
         </scene>
         <!--User6 View Controller-->
         <scene sceneID="5mf-Iz-SOx">
@@ -424,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tUj-ep-Iki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5624.6376811594209" y="114.50892857142857"/>
+            <point key="canvasLocation" x="5625" y="208"/>
         </scene>
         <!--User10 View Controller-->
         <scene sceneID="EeG-b5-QLa">
@@ -966,11 +1092,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="pomonpun" translatesAutoresizingMaskIntoConstraints="NO" id="Wmk-NW-vgO">
-                                <rect key="frame" x="-23" y="-51" width="470" height="683"/>
+                                <rect key="frame" x="0.0" y="-35" width="470" height="746"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1t-1z-NpN">
-                                <rect key="frame" x="0.0" y="608" width="427" height="234"/>
+                                <rect key="frame" x="0.0" y="639" width="427" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
@@ -986,6 +1112,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1vD-2p-dVb">
+                                <rect key="frame" x="319" y="519" width="95" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Stay a Tree">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vpG-gm-x12" kind="presentation" id="OGY-7A-wis"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qdf-on-u1T">
                                 <rect key="frame" x="319" y="448" width="95" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -998,16 +1137,6 @@
                                     <segue destination="5g4-hl-mQX" kind="presentation" id="y2b-sI-iMu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1vD-2p-dVb">
-                                <rect key="frame" x="319" y="519" width="95" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Stay a Tree">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="w8x-4F-inC"/>
@@ -1016,6 +1145,69 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6CL-6E-bNg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10515.942028985508" y="-406.47321428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jY1-EC-8Jo">
+            <objects>
+                <viewController id="vpG-gm-x12" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nnb-8C-aIW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="gameendings-5" translatesAutoresizingMaskIntoConstraints="NO" id="QSW-gM-dcE">
+                                <rect key="frame" x="0.0" y="0.0" width="433" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uz0-zG-cyO"/>
+                    </view>
+                    <connections>
+                        <segue destination="RBJ-46-rPF" kind="presentation" identifier="endtitleSegue" id="PQZ-QK-R34"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXh-zD-vYY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11263.76811594203" y="-658.25892857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eMj-1T-Jaw">
+            <objects>
+                <viewController id="1U0-CR-XMr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M0P-Fs-2Ja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rkv-Hk-4go">
+                                <rect key="frame" x="0.0" y="-23" width="414" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-kD-biF">
+                                <rect key="frame" x="0.0" y="704" width="414" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Upon your question, Lady Fides smiles: "I suppose, but you must work with my scholars and politicians. In honor of this decision  " You agree and  your new life begins.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fSA-nG-yWr">
+                                <rect key="frame" x="364" y="807" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="uG2-i6-WB6" kind="presentation" id="A77-0M-NOT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8Hb-FJ-vfu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j3S-Bn-5f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12192.753623188406" y="-923.4375"/>
         </scene>
         <!--User18 View Controller-->
         <scene sceneID="P1q-bY-UOr">
@@ -1051,16 +1243,41 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="lastscenes-1" translatesAutoresizingMaskIntoConstraints="NO" id="oNp-rU-oV3">
-                                <rect key="frame" x="-48" y="20" width="511" height="612"/>
+                                <rect key="frame" x="-48" y="-18" width="511" height="650"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TRv-DC-BGk">
+                                <rect key="frame" x="296" y="532" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Make Promise">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sR5-w5-XCd" kind="presentation" id="4aQ-5V-Uim"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="evE-d1-CQ0">
+                                <rect key="frame" x="296" y="579" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <state key="normal" title="Ask To Stay">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1U0-CR-XMr" kind="presentation" id="ENV-W0-qhf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="CI1-Up-ieG"/>
                     </view>
                     <connections>
                         <outlet property="gameTextLabel" destination="HiM-Kv-5Lh" id="iqz-mW-Kka"/>
-                        <segue destination="sR5-w5-XCd" kind="presentation" identifier="olympusSegue" id="CzF-oN-5xk"/>
+                        <outlet property="promiseChoice" destination="TRv-DC-BGk" id="HCu-tc-BJ8"/>
+                        <outlet property="stayChoice" destination="evE-d1-CQ0" id="HcY-gZ-yGe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t3c-iH-Uk7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1497,6 +1714,36 @@
             </objects>
             <point key="canvasLocation" x="15811.594202898552" y="-4121.6517857142853"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xJW-Gh-zLG">
+            <objects>
+                <viewController id="uG2-i6-WB6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JQM-li-8Iv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-2" translatesAutoresizingMaskIntoConstraints="NO" id="aBB-pC-akY">
+                                <rect key="frame" x="0.0" y="7" width="414" height="835"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JO6-zQ-eGl">
+                                <rect key="frame" x="366" y="782" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="RBJ-46-rPF" kind="presentation" identifier="titleSegue" id="eBv-gf-mPx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="n6o-cM-N2x"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W4L-WK-Tmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12928.985507246378" y="-1223.4375"/>
+        </scene>
         <!--User27 View Controller-->
         <scene sceneID="0E6-T2-OCd">
             <objects>
@@ -1917,6 +2164,75 @@
             </objects>
             <point key="canvasLocation" x="22650.72463768116" y="-3628.125"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="f7h-p9-vee">
+            <objects>
+                <viewController id="VX6-Hm-9Gw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UMJ-IL-MzX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="officalEndings-3" translatesAutoresizingMaskIntoConstraints="NO" id="scj-E3-Z0l">
+                                <rect key="frame" x="-76" y="-33" width="612" height="851"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gLb-Kd-50y">
+                                <rect key="frame" x="0.0" y="700" width="414" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You decide to not go back, you stand there. Lady Minerva sigh "Here young one, you shall be my hand from now on." You are handed a sword and a new llife begins for you.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Chn-p8-L8e">
+                                <rect key="frame" x="357" y="816" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rP1-Jk-SpZ" kind="presentation" id="67B-ye-Rcs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8fF-rJ-w9x"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Vq-tb-aEy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20447.826086956524" y="-3092.4107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ok9-80-kOZ">
+            <objects>
+                <viewController id="rP1-Jk-SpZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gmc-A2-Vrb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="miner-4" translatesAutoresizingMaskIntoConstraints="NO" id="eZ4-3j-CDb">
+                                <rect key="frame" x="0.0" y="-8" width="414" height="869"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="n1U-1G-8ds">
+                                <rect key="frame" x="335" y="794" width="31" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="RBJ-46-rPF" kind="presentation" id="cUw-mU-LFS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LE3-pc-ZO3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="le0-RT-DQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21137.681159420292" y="-2699.3303571428569"/>
+        </scene>
         <!--User45 View Controller-->
         <scene sceneID="z8E-Qk-ZMX">
             <objects>
@@ -1954,14 +2270,39 @@
                                     <action selector="continueOnTap:" destination="jSd-GB-XPF" eventType="touchUpInside" id="lht-DI-Vxo"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rwW-R0-32i">
+                                <rect key="frame" x="297" y="451" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Take Advice">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jDC-Zn-4QL" kind="presentation" id="OJd-CO-vju"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NJt-yR-8sI">
+                                <rect key="frame" x="297" y="509" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Not Go Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VX6-Hm-9Gw" kind="presentation" id="Gpx-ZU-7zg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="glj-rJ-L2q"/>
                     </view>
                     <connections>
                         <outlet property="continuedialouge" destination="Fdf-f8-3nN" id="Cg4-jF-6tM"/>
+                        <outlet property="notChoice" destination="NJt-yR-8sI" id="5eX-SF-vVe"/>
                         <outlet property="storyLabel" destination="jD8-3d-eTt" id="ba1-ah-xwI"/>
-                        <segue destination="jDC-Zn-4QL" kind="presentation" identifier="minSegue" id="v7X-nQ-XJs"/>
+                        <outlet property="takeAdviceChoice" destination="rwW-R0-32i" id="Q0Y-T2-dIX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qSl-pH-wBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2072,23 +2413,23 @@
                                 <rect key="frame" x="0.0" y="4" width="414" height="707"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AYG-J2-SHV">
-                                <rect key="frame" x="0.0" y="659" width="414" height="183"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AYG-J2-SHV">
+                                <rect key="frame" x="0.0" y="640" width="414" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You look to see Lady Persephone approach.            Lady Persephone: " Hello, child I know why you are here." You recognize that voice as the singing woman! Lady Persephone: " My task for you is to be able to get the Cerberus, to let you pet them."</string>
+                                        <string key="content">You soon see Lady Persephone appear.                  Lady Persephone: " Hello, child I know why you are here." You recognize that voice as the singing woman!                                                      Lady Persephone: "You are to get the Cerberus, to let you pet them. to gain the part, belonging to my adoring husband Hades gifted to me."</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="20" name="Georgia"/>
+                                            <font key="NSFont" size="19" name="Georgia"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="20" headIndent="18" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KCr-sK-4PD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KCr-sK-4PD">
                                 <rect key="frame" x="350" y="816" width="15" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2134,7 +2475,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BUp-h2-U2o">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BUp-h2-U2o">
                                 <rect key="frame" x="354" y="820" width="15" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2160,10 +2501,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="cerberuschallege" translatesAutoresizingMaskIntoConstraints="NO" id="rfY-Yc-E3M">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" fixedFrame="YES" image="cerberuschallege" translatesAutoresizingMaskIntoConstraints="NO" id="rfY-Yc-E3M">
                                 <rect key="frame" x="-14" y="-36" width="428" height="792"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are left with Ana, Do you rush to pet them, or Hold our your hand and wait ? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hNz-OO-Vxz">
+                                <rect key="frame" x="0.0" y="724" width="414" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grA-QO-30x">
+                                <rect key="frame" x="352" y="668" width="62" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Wait">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8LK-2v-eHC" kind="presentation" id="3Mw-MO-8hV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VOO-36-uAo">
+                                <rect key="frame" x="352" y="622" width="62" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <state key="normal" title="Rush">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WNS-Zi-5Q3" kind="presentation" id="1i8-Gb-cKJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WRG-nh-6Jf"/>
@@ -2178,13 +2551,39 @@
             <objects>
                 <viewController id="8LK-2v-eHC" customClass="user54ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dci-h3-TgL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="cerbwin" translatesAutoresizingMaskIntoConstraints="NO" id="XZx-Nb-e33">
-                                <rect key="frame" x="0.0" y="-14" width="414" height="792"/>
+                                <rect key="frame" x="0.0" y="-14" width="414" height="680"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JYO-Cp-PlQ">
+                                <rect key="frame" x="0.0" y="639" width="414" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You chose to wait, and Ana soon lets you pet her after sniffing your hand.                                          Lady Persephone: " Congratulations little one, I knew you would prevail. Your prize is already at Lady Vesta's home."  Lady Persephone waves her hand sending you back to the home of Lady Vesta.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="21" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="6" headIndent="8" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4hJ-4u-QUd">
+                                <rect key="frame" x="349" y="816" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="sUF-1X-C4u" kind="presentation" id="l9t-oJ-mC6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GmA-GW-9eW"/>
@@ -2194,33 +2593,75 @@
             </objects>
             <point key="canvasLocation" x="26224.637681159424" y="-4222.0982142857138"/>
         </scene>
-        <!--View Controller-->
+        <!--User66 View Controller-->
         <scene sceneID="82n-ow-ixz">
             <objects>
-                <viewController id="gpQ-oh-w5c" sceneMemberID="viewController">
+                <viewController id="gpQ-oh-w5c" customClass="user66ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Z8-wk-JV8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="wakeup" translatesAutoresizingMaskIntoConstraints="NO" id="fNq-YQ-0DD">
+                                <rect key="frame" x="-66" y="-8" width="612" height="816"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ure-af-VoC">
+                                <rect key="frame" x="0.0" y="656" width="414" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You question , if your experience was real. You wrap the scarlett cloak around yourself und the hospital bedding . You decide to never go anywhere without either object or to forget your adventure real or not.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.95582685450000004" blue="0.96251062320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9x-Bh-rHG">
+                                <rect key="frame" x="348" y="816" width="37" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="RBJ-46-rPF" kind="presentation" id="Cru-7y-Iev"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sLf-5P-Aas"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIw-aC-48h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26242" y="-3534"/>
+            <point key="canvasLocation" x="28218.840579710148" y="-2622.3214285714284"/>
         </scene>
         <!--User55 View Controller-->
         <scene sceneID="IuP-PG-nKf">
             <objects>
                 <viewController id="sUF-1X-C4u" customClass="user55ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dK7-SL-qCN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="hecateintro" translatesAutoresizingMaskIntoConstraints="NO" id="dr8-G7-VgH">
-                                <rect key="frame" x="-15" y="-78" width="429" height="737"/>
+                                <rect key="frame" x="-15" y="-78" width="429" height="800"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SSY-hu-4id">
+                                <rect key="frame" x="0.0" y="691" width="414" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You appear in Lady Vesta's home where she stands there smiling. "Well Done litle one, give me the parts you have gathered."  You do so and are introduced to the Greek Goddess Hecate.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hw1-tD-hRW">
+                                <rect key="frame" x="349" y="816" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="lhC-lK-Xty" kind="presentation" id="r60-Q1-ezA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Afo-Y7-KIo"/>
@@ -2235,13 +2676,44 @@
             <objects>
                 <viewController id="lhC-lK-Xty" customClass="user56ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a0r-5j-cXx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="hecatetalk" translatesAutoresizingMaskIntoConstraints="NO" id="HVK-m5-GbY">
                                 <rect key="frame" x="-348" y="-29" width="834" height="670"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yy4-wK-DOa">
+                                <rect key="frame" x="0.0" y="629" width="414" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lady Vesta : "This is Lady Hecate, Goddess of  Witchcraft, Magick,  The Moon, and The Crossroads." Lady Vesta leaves you two alone, after giving you a hug goodbye. Lady Hecate: "Good work little one, now stand back as I work my magick."</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.95582685450000004" blue="0.96251062320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="19"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="7" headIndent="4" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Jr-DC-qRl">
+                                <rect key="frame" x="343" y="816" width="27" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jLo-Cl-lCf">
+                                <rect key="frame" x="343" y="816" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="eC7-qq-qfg" kind="presentation" id="uZ6-ev-K1g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xWo-6d-uRv"/>
@@ -2256,13 +2728,38 @@
             <objects>
                 <viewController id="eC7-qq-qfg" customClass="user57ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lxn-Nn-Nvn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="thegemrestord" translatesAutoresizingMaskIntoConstraints="NO" id="AMT-vk-M4j">
-                                <rect key="frame" x="-83" y="-4" width="612" height="686"/>
+                                <rect key="frame" x="-83" y="-4" width="612" height="741"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U96-Un-RUA">
+                                <rect key="frame" x="0.0" y="702" width="414" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You stand back, and watch Lady Hecate use her magick to repair the gemstone. The house shakes at the amount of power and soon you see the gemstone whole again.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.95582685450000004" blue="0.96251062320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="5" headIndent="4" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ktx-RS-bVh">
+                                <rect key="frame" x="343" y="870" width="19" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="Lu6-lt-cA1" kind="presentation" id="7hA-Ti-kTA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="zhZ-Np-S0T"/>
@@ -2270,20 +2767,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nm3-vx-rrj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28601" y="-3950"/>
+            <point key="canvasLocation" x="28600.000000000004" y="-3950.2232142857142"/>
         </scene>
         <!--User58 View Controller-->
         <scene sceneID="XvM-RJ-hzy">
             <objects>
                 <viewController id="Lu6-lt-cA1" customClass="user58ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mrg-d3-Hx7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="hekateleaves" translatesAutoresizingMaskIntoConstraints="NO" id="XL0-tZ-SpN">
-                                <rect key="frame" x="-337" y="-148" width="751" height="913"/>
+                                <rect key="frame" x="-337" y="-148" width="751" height="870"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0AF-pt-Qc9">
+                                <rect key="frame" x="0.0" y="654" width="414" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lady Hecate: "You can only use this once. I suggest you take great honor into all of our help. I am proud of your work little one." Lady Hecate pats your head before leaving you.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="21" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="4" headIndent="4" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eBf-eQ-TGV">
+                                <rect key="frame" x="349" y="816" width="28" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="gdl-V6-UzM" kind="presentation" id="cix-t1-mqT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eDw-wx-niE"/>
@@ -2291,20 +2814,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdI-A6-hNP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29370" y="-3725"/>
+            <point key="canvasLocation" x="29369.565217391308" y="-3725.2232142857142"/>
         </scene>
         <!--User59 View Controller-->
         <scene sceneID="8qh-eG-OGI">
             <objects>
                 <viewController id="gdl-V6-UzM" customClass="user59ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBK-az-uYE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="heartcomplete" translatesAutoresizingMaskIntoConstraints="NO" id="gEO-zX-BId">
                                 <rect key="frame" x="-81" y="-60" width="531" height="805"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are soon left, alone. you walk up to the gemstone and hold it, and soon the world around you changes." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6pV-3l-o5q">
+                                <rect key="frame" x="0.0" y="668" width="414" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTS-3V-vVa">
+                                <rect key="frame" x="331" y="816" width="33" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="w6I-Zs-YpG" kind="presentation" id="WjC-e3-0Nz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="N2h-Q9-TiG"/>
@@ -2319,13 +2859,39 @@
             <objects>
                 <viewController id="w6I-Zs-YpG" customClass="user60ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xA9-Ff-y2r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="gemstonehome" translatesAutoresizingMaskIntoConstraints="NO" id="CB7-f2-Qcs">
                                 <rect key="frame" x="-88" y="-40" width="612" height="792"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EtL-Ma-Ts7">
+                                <rect key="frame" x="0.0" y="704" width="414" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You are sent through, the dimensional planes sending you back to your realm. You look around seeing a glimmer, of your world begin to take shape.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="3" headIndent="3" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aee-M9-Rfe">
+                                <rect key="frame" x="356" y="816" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="ECb-Mz-9Gq" kind="presentation" id="qQR-c9-gg0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kOS-la-f8k"/>
@@ -2333,14 +2899,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KA7-IK-szZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30826" y="-3676"/>
+            <point key="canvasLocation" x="30824.637681159424" y="-3676.3392857142853"/>
         </scene>
-        <!--View Controller-->
+        <!--User65 View Controller-->
         <scene sceneID="Diz-hY-3tw">
             <objects>
-                <viewController id="RBJ-46-rPF" sceneMemberID="viewController">
+                <viewController id="RBJ-46-rPF" customClass="user65ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iqm-mo-cL3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="gameend" translatesAutoresizingMaskIntoConstraints="NO" id="3rJ-WZ-j9Y">
@@ -2354,20 +2920,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJN-Ej-QOX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28092.753623188408" y="-2648.4375"/>
+            <point key="canvasLocation" x="27326" y="-2483"/>
         </scene>
-        <!--View Controller-->
+        <!--User64 View Controller-->
         <scene sceneID="KzC-Ph-I3R">
             <objects>
-                <viewController id="qQ6-73-O8k" sceneMemberID="viewController">
+                <viewController id="qQ6-73-O8k" customClass="user64ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T32-E0-0wh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="necklacewear" translatesAutoresizingMaskIntoConstraints="NO" id="Blp-D0-73K">
                                 <rect key="frame" x="-64" y="-13" width="612" height="792"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KIj-7g-NiD">
+                                <rect key="frame" x="0.0" y="677" width="414" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You look onto the necklace, sure you have never seen it before. The familiar face of Lord hermes shines in it and winks at you as you look at it closer. You decide to wear it.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nm8-22-j39">
+                                <rect key="frame" x="350" y="816" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="gpQ-oh-w5c" kind="presentation" identifier="realSegue" id="p9W-X0-a6v"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="74L-YI-cvG"/>
@@ -2375,85 +2959,286 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TqF-Aa-ivE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28987" y="-2621"/>
+            <point key="canvasLocation" x="28986.956521739132" y="-2621.6517857142858"/>
         </scene>
-        <!--View Controller-->
+        <!--User63 View Controller-->
         <scene sceneID="0Ba-Gf-GqU">
             <objects>
-                <viewController id="yRj-hH-Nw3" sceneMemberID="viewController">
+                <viewController id="yRj-hH-Nw3" customClass="user63ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nYo-fe-DSQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="necklce" translatesAutoresizingMaskIntoConstraints="NO" id="ePA-26-6OM">
-                                <rect key="frame" x="0.0" y="0.0" width="612" height="792"/>
+                                <rect key="frame" x="0.0" y="0.0" width="612" height="864"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="07w-mR-izk">
+                                <rect key="frame" x="0.0" y="129" width="414" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Mom: " Rory, please rest, I am going to go talk to Dr. Rameriz and see when we can go home! Your siblings and dad are ready to see you!."</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YpG-BR-QCa">
+                                <rect key="frame" x="369" y="205" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="AZl-yD-1TF"/>
                     </view>
+                    <connections>
+                        <segue destination="qQ6-73-O8k" kind="presentation" identifier="curSegue" id="on3-XY-xHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lk-tT-PfC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29775" y="-2600"/>
+            <point key="canvasLocation" x="29773.913043478264" y="-2600.2232142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--User62 View Controller-->
         <scene sceneID="cxP-ys-dNG">
             <objects>
-                <viewController id="sOG-hZ-e8K" sceneMemberID="viewController">
+                <viewController id="sOG-hZ-e8K" customClass="user62ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XlQ-kR-iPr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mom" translatesAutoresizingMaskIntoConstraints="NO" id="9hr-fx-M1b">
                                 <rect key="frame" x="-24" y="-5" width="612" height="792"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5pn-BX-gT8">
+                                <rect key="frame" x="0.0" y="678" width="414" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You see your mom enter the room. Mom: " Oh, my sweet Rory! ! you're awake!" you sit up to see a red blanket under your hospitial blanket... it seems to have a scarlet hood on it.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Aih-DW-wDf">
+                                <rect key="frame" x="352" y="807" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="continueOnTap:" destination="sOG-hZ-e8K" eventType="touchUpInside" id="Rxh-XM-qku"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="IC4-Lb-VuD"/>
                     </view>
+                    <connections>
+                        <outlet property="continueDialouge" destination="Aih-DW-wDf" id="cXl-iw-ZVD"/>
+                        <outlet property="gameLabel" destination="5pn-BX-gT8" id="VhR-y5-FVc"/>
+                        <segue destination="yRj-hH-Nw3" kind="presentation" identifier="necklaceSegue" id="Jk5-Re-pwo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eri-ka-5op" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30645" y="-2573"/>
+            <point key="canvasLocation" x="30644.927536231888" y="-2573.4375"/>
         </scene>
-        <!--View Controller-->
+        <!--User61 View Controller-->
         <scene sceneID="Ogr-Ly-PEh">
             <objects>
-                <viewController id="ECb-Mz-9Gq" sceneMemberID="viewController">
+                <viewController id="ECb-Mz-9Gq" customClass="user61ViewController" customModule="DimensionalriftGame_Fraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qan-XQ-f1O">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="hospitalintro" translatesAutoresizingMaskIntoConstraints="NO" id="Y1d-wf-LxV">
                                 <rect key="frame" x="-99" y="-11" width="781" height="785"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7cm-4k-iIa">
+                                <rect key="frame" x="0.0" y="686" width="414" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4246275907" green="0.086390691670000005" blue="0.15846530219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="You soon look around, you are in a hospital bed. The gemstone is gone, a man in scrubs and a lab coat enters the room. ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="8" headIndent="6" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EhD-zh-1dD">
+                                <rect key="frame" x="345" y="816" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="conitnueDialouge:" destination="ECb-Mz-9Gq" eventType="touchUpInside" id="aiz-fl-gSU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eEF-jU-UEH"/>
                     </view>
+                    <connections>
+                        <outlet property="continueOnTap" destination="EhD-zh-1dD" id="y25-kj-HTe"/>
+                        <outlet property="gameTextLabel" destination="7cm-4k-iIa" id="kaD-lw-zam"/>
+                        <segue destination="sOG-hZ-e8K" kind="presentation" identifier="momSegue" id="Rjt-Ga-B9G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXz-qE-r5d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31490" y="-2993"/>
+            <point key="canvasLocation" x="31489.855072463772" y="-2993.3035714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fmt-Ad-Cv4">
+            <objects>
+                <viewController id="cJU-Yt-Xw6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gf0-wA-88C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zWI-We-En9">
+                                <rect key="frame" x="281" y="557" width="133" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Give Necklace">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qzR-Vc-b5E" kind="presentation" id="6Gi-JU-QuB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlI-6Z-J6C">
+                                <rect key="frame" x="263" y="628" width="151" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50692195600000001" green="0.099067986750000003" blue="0.1855626363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                                <state key="normal" title="Keep Necklace">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="w5m-Wd-x5d" kind="presentation" id="lu3-rG-vnC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-10" translatesAutoresizingMaskIntoConstraints="NO" id="d2c-bs-NvR">
+                                <rect key="frame" x="-54" y="-26" width="490" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="TW5-Rh-aJV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JM5-Od-QkJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25140.579710144928" y="-2699.3303571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="whE-f7-O4B">
+            <objects>
+                <viewController id="w5m-Wd-x5d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FSL-Tk-Fah">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-7" translatesAutoresizingMaskIntoConstraints="NO" id="SP0-Lo-RvR">
+                                <rect key="frame" x="0.0" y="0.0" width="435" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="APk-Dx-13W">
+                                <rect key="frame" x="364" y="796" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30284768369999998" green="0.79569018670000002" blue="0.80037645729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="RBJ-46-rPF" kind="presentation" id="QwQ-xm-DM9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pWA-TZ-1Su"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKv-1N-NtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24247.826086956524" y="-3374.3303571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lXq-Bp-meL">
+            <objects>
+                <viewController id="h3t-Ok-p8m" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qEb-zR-Jiv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-8" translatesAutoresizingMaskIntoConstraints="NO" id="6Ws-tW-Mn8">
+                                <rect key="frame" x="-23" y="0.0" width="476" height="776"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mhS-cM-A9t"/>
+                    </view>
+                    <connections>
+                        <segue destination="cJU-Yt-Xw6" kind="presentation" id="umO-Zx-nl3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4R8-XE-Cux" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26224.637681159424" y="-2746.2053571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mbi-pd-0j3">
+            <objects>
+                <viewController id="qzR-Vc-b5E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lae-TP-o4G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" image="officalEndings-10" id="Xk4-vU-TEQ">
+                                <rect key="frame" x="-34" y="-6" width="484" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KK0-M3-FQW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJa-Tb-Rrm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25302.89855072464" y="-3435.2678571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ki0-g5-1CR">
             <objects>
                 <viewController id="WNS-Zi-5Q3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o46-k2-9b3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" fixedFrame="YES" image="officalEndings-6" translatesAutoresizingMaskIntoConstraints="NO" id="Ixq-gS-l8r">
+                                <rect key="frame" x="-20" y="-20" width="434" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="QMn-c7-L1F"/>
                     </view>
+                    <connections>
+                        <segue destination="h3t-Ok-p8m" kind="presentation" id="87Q-yB-A1Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jiT-XQ-Bfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25539" y="-3461"/>
+            <point key="canvasLocation" x="26185.507246376812" y="-3471.4285714285711"/>
         </scene>
         <!--User33 View Controller-->
         <scene sceneID="Nrz-8R-1Vu">
@@ -3151,8 +3936,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CzF-oN-5xk"/>
+        <segue reference="4aQ-5V-Uim"/>
         <segue reference="rlF-vd-rtA"/>
+        <segue reference="PQZ-QK-R34"/>
         <segue reference="w51-jh-jfd"/>
         <segue reference="lDL-ap-LPS"/>
         <segue reference="Kzu-aU-6sS"/>
@@ -3160,6 +3946,7 @@
         <segue reference="ruZ-wC-ued"/>
         <segue reference="8lp-gZ-qEF"/>
         <segue reference="y2b-sI-iMu"/>
+        <segue reference="uJ9-9T-lE1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
@@ -3175,13 +3962,16 @@
         <image name="dio" width="612" height="792"/>
         <image name="diochallengecomp" width="612" height="792"/>
         <image name="diointro" width="612" height="792"/>
+        <image name="drowming" width="612" height="792"/>
         <image name="enterlabry" width="612" height="792"/>
         <image name="eroaquestbegin" width="612" height="792"/>
         <image name="erosquest" width="612" height="792"/>
         <image name="erosquestcomp" width="612" height="792"/>
         <image name="falling" width="612" height="792"/>
+        <image name="fontusmeet" width="612" height="792"/>
         <image name="gamebegin" width="612" height="792"/>
         <image name="gameend" width="612" height="792"/>
+        <image name="gameendings-5" width="612" height="792"/>
         <image name="gamestartHall-1" width="612" height="792"/>
         <image name="gemstonehome" width="612" height="792"/>
         <image name="heartcomplete" width="612" height="792"/>
@@ -3202,9 +3992,17 @@
         <image name="lastscenes-1" width="612" height="792"/>
         <image name="lastscenes-3" width="612" height="792"/>
         <image name="lastscenes-4" width="612" height="792"/>
+        <image name="miner-4" width="612" height="792"/>
         <image name="mom" width="612" height="792"/>
         <image name="necklacewear" width="612" height="792"/>
         <image name="necklce" width="612" height="792"/>
+        <image name="officalEndings-1" width="612" height="792"/>
+        <image name="officalEndings-10" width="612" height="792"/>
+        <image name="officalEndings-2" width="612" height="792"/>
+        <image name="officalEndings-3" width="612" height="792"/>
+        <image name="officalEndings-6" width="612" height="792"/>
+        <image name="officalEndings-7" width="612" height="792"/>
+        <image name="officalEndings-8" width="612" height="792"/>
         <image name="olympusintro" width="612" height="792"/>
         <image name="parenttalk" width="612" height="792"/>
         <image name="persphoneintro" width="612" height="792"/>
@@ -3216,6 +4014,7 @@
         <image name="rightlane" width="612" height="792"/>
         <image name="secondheartrec" width="612" height="792"/>
         <image name="spring" width="612" height="792"/>
+        <image name="springwater" width="612" height="792"/>
         <image name="thegemrestord" width="612" height="792"/>
         <image name="toolgrab" width="612" height="792"/>
         <image name="twowayinlab" width="612" height="792"/>
@@ -3224,5 +4023,6 @@
         <image name="vestahomewelcome" width="612" height="792"/>
         <image name="vestastory" width="612" height="792"/>
         <image name="vestiatips" width="613" height="793"/>
+        <image name="wakeup" width="612" height="792"/>
     </resources>
 </document>
