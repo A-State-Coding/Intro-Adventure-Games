@@ -61,7 +61,7 @@
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aR7-bK-3dc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRC-jx-zi6" customClass="GlitchLabel" customModule="CYOA" customModuleProvider="target">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046398" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRC-jx-zi6" customClass="GlitchLabel" customModule="CYOA" customModuleProvider="target">
                                 <rect key="frame" x="162" y="259" width="160" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -92,6 +92,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="glitchStart" destination="NRC-jx-zi6" id="BYj-WQ-DPu"/>
                         <outlet property="seekTitle" destination="NRC-jx-zi6" id="IFt-jO-g9r"/>
                         <outlet property="sliderOutlet" destination="nfB-G9-5O0" id="3s9-Ag-RcD"/>
                         <outlet property="startOutlet" destination="kv0-Wk-XN4" id="noO-9G-q5q"/>
@@ -1400,14 +1401,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHK-Vd-pzS">
-                                <rect key="frame" x="21" y="101" width="340" height="310"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="getKid:" destination="dEU-RB-ZiO" eventType="touchUpInside" id="Rdw-6P-l24"/>
-                                </connections>
-                            </button>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrow.uturn.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="p5G-Gc-bxd">
                                 <rect key="frame" x="168" y="508" width="57" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1429,6 +1422,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHK-Vd-pzS">
+                                <rect key="frame" x="11" y="103" width="340" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="getKid:" destination="dEU-RB-ZiO" eventType="touchUpInside" id="Rdw-6P-l24"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xGI-TZ-SGz"/>
@@ -1436,6 +1437,8 @@
                     <connections>
                         <outlet property="getKidOutlet" destination="WHK-Vd-pzS" id="nJj-A5-DLV"/>
                         <outlet property="graveBackOutlet" destination="b2X-7J-3sf" id="824-Kp-Z4j"/>
+                        <outlet property="kidGrave" destination="5YA-KU-1eq" id="cY8-5P-l2v"/>
+                        <outlet property="kidGraveCheck" destination="kEK-OZ-e5l" id="Mdu-9V-UH3"/>
                         <segue destination="90h-F9-XP9" kind="presentation" identifier="segueFourMinus" id="xco-CS-Qve"/>
                     </connections>
                 </viewController>

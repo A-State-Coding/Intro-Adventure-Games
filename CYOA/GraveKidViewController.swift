@@ -16,14 +16,24 @@ class GraveKidViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+   /* if kidOne = true {
+    kidGrave.isHidden = true;
+    kidGraveCheck.isHidden = false
+    }
+    else { */
+    
     @IBOutlet weak var getKidOutlet: UIButton!
     
     @IBAction func getKid(_ sender: Any) {
-       // let person.fill.isHidden = true
+        kidGrave.isHidden = true;
+        kidGraveCheck.isHidden = false
+        kidOne = true
     }
-    
+    //}
     @IBOutlet weak var graveBackOutlet: UIButton!
     
+    @IBOutlet weak var kidGraveCheck: UIImageView!
+    @IBOutlet weak var kidGrave: UIImageView!
     @IBAction func graveBack(_ sender: Any) {
         performSegue(withIdentifier: "segueFourMinus", sender: self)
     }

@@ -9,6 +9,10 @@
 import UIKit
 import AVFoundation
 
+public var kidOne = false
+public var kidTwo = false
+public var kidThree = false
+
 class ViewController: UIViewController {
     var AudioPlayer = AVAudioPlayer()
 
@@ -31,12 +35,15 @@ class ViewController: UIViewController {
         //UILabel.text disappears
         //"damn flashlight"
         if sender.value == 1 {
-            startOutlet.isHidden = false
+            startOutlet.isHidden = false;
+            glitchStart.isHidden = false
         }
         else {
-            startOutlet.isHidden = true
+            startOutlet.isHidden = true;
+            glitchStart.isHidden = true
         }
     }
+    @IBOutlet weak var glitchStart: GlitchLabel!
     
     @IBOutlet weak var seekTitle: UILabel!
     
