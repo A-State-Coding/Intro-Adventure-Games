@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB50B075245B38F800024F84 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50B074245B38F800024F84 /* Swift+Gif.swift */; };
+		EB50B077245B3A5D00024F84 /* pixil-gif-drawing-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB50B076245B3A5C00024F84 /* pixil-gif-drawing-2.gif */; };
+		EB50B079245B3DF000024F84 /* PuddleOneGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50B078245B3DF000024F84 /* PuddleOneGif.swift */; };
+		EB50B07B245B3E8500024F84 /* puddle monster.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB50B07A245B3E8500024F84 /* puddle monster.gif */; };
+		EB50B07D245B3F2700024F84 /* pixil-gif-drawing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB50B07C245B3F2700024F84 /* pixil-gif-drawing.gif */; };
+		EB50B07F245B3F3500024F84 /* pixil-gif-drawing-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB50B07E245B3F3500024F84 /* pixil-gif-drawing-3.gif */; };
+		EB50B083245B433500024F84 /* Chief.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB50B082245B433500024F84 /* Chief.mp3 */; };
+		EB7C526A245CF1DF0022E7F7 /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C5269245CF1DF0022E7F7 /* GlitchLabel.swift */; };
 		EBD73EB62442C766005E467B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD73EB52442C766005E467B /* AppDelegate.swift */; };
 		EBD73EB82442C766005E467B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD73EB72442C766005E467B /* SceneDelegate.swift */; };
 		EBD73EBA2442C766005E467B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD73EB92442C766005E467B /* ViewController.swift */; };
@@ -26,6 +34,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB50B074245B38F800024F84 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		EB50B076245B3A5C00024F84 /* pixil-gif-drawing-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pixil-gif-drawing-2.gif"; sourceTree = "<group>"; };
+		EB50B078245B3DF000024F84 /* PuddleOneGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuddleOneGif.swift; sourceTree = "<group>"; };
+		EB50B07A245B3E8500024F84 /* puddle monster.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "puddle monster.gif"; sourceTree = "<group>"; };
+		EB50B07C245B3F2700024F84 /* pixil-gif-drawing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pixil-gif-drawing.gif"; sourceTree = "<group>"; };
+		EB50B07E245B3F3500024F84 /* pixil-gif-drawing-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pixil-gif-drawing-3.gif"; sourceTree = "<group>"; };
+		EB50B082245B433500024F84 /* Chief.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chief.mp3; sourceTree = "<group>"; };
+		EB7C5269245CF1DF0022E7F7 /* GlitchLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchLabel.swift; sourceTree = "<group>"; };
 		EBD73EB22442C766005E467B /* CYOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD73EB52442C766005E467B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD73EB72442C766005E467B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,11 +94,17 @@
 			children = (
 				EBD73EB52442C766005E467B /* AppDelegate.swift */,
 				EBD73EB72442C766005E467B /* SceneDelegate.swift */,
-				EBD73EB92442C766005E467B /* ViewController.swift */,
 				EBD73EBB2442C766005E467B /* Main.storyboard */,
+				EB50B074245B38F800024F84 /* Swift+Gif.swift */,
+				EB50B07A245B3E8500024F84 /* puddle monster.gif */,
+				EB50B076245B3A5C00024F84 /* pixil-gif-drawing-2.gif */,
+				EB50B07C245B3F2700024F84 /* pixil-gif-drawing.gif */,
+				EB50B07E245B3F3500024F84 /* pixil-gif-drawing-3.gif */,
 				EBD73EBE2442C76C005E467B /* Assets.xcassets */,
+				EB50B082245B433500024F84 /* Chief.mp3 */,
 				EBD73EC02442C76C005E467B /* LaunchScreen.storyboard */,
 				EBD73EC32442C76C005E467B /* Info.plist */,
+				EBD73EB92442C766005E467B /* ViewController.swift */,
 				EBD73EC92442D460005E467B /* secondViewViewController.swift */,
 				EBE579252443A36200D0252D /* GraveyardViewController.swift */,
 				EBE579272443B13600D0252D /* graveViewController.swift */,
@@ -93,6 +115,8 @@
 				EBE579312443EE6E00D0252D /* PuddleForestViewController.swift */,
 				EBE579332443F2E400D0252D /* TreeKidViewController.swift */,
 				EBE579352443F7F800D0252D /* BrokenViewController.swift */,
+				EB50B078245B3DF000024F84 /* PuddleOneGif.swift */,
+				EB7C5269245CF1DF0022E7F7 /* GlitchLabel.swift */,
 			);
 			path = CYOA;
 			sourceTree = "<group>";
@@ -155,9 +179,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB50B077245B3A5D00024F84 /* pixil-gif-drawing-2.gif in Resources */,
+				EB50B07B245B3E8500024F84 /* puddle monster.gif in Resources */,
 				EBD73EC22442C76C005E467B /* LaunchScreen.storyboard in Resources */,
 				EBD73EBF2442C76C005E467B /* Assets.xcassets in Resources */,
+				EB50B07F245B3F3500024F84 /* pixil-gif-drawing-3.gif in Resources */,
 				EBD73EBD2442C766005E467B /* Main.storyboard in Resources */,
+				EB50B083245B433500024F84 /* Chief.mp3 in Resources */,
+				EB50B07D245B3F2700024F84 /* pixil-gif-drawing.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +201,11 @@
 				EBD73EBA2442C766005E467B /* ViewController.swift in Sources */,
 				EBE5792C2443E31500D0252D /* CreepyForestViewController.swift in Sources */,
 				EBE5792E2443E8B600D0252D /* SpiderwebViewController.swift in Sources */,
+				EB50B075245B38F800024F84 /* Swift+Gif.swift in Sources */,
 				EBE5792A2443C0C200D0252D /* GraveKidViewController.swift in Sources */,
 				EBE579362443F7F800D0252D /* BrokenViewController.swift in Sources */,
+				EB7C526A245CF1DF0022E7F7 /* GlitchLabel.swift in Sources */,
+				EB50B079245B3DF000024F84 /* PuddleOneGif.swift in Sources */,
 				EBE579262443A36200D0252D /* GraveyardViewController.swift in Sources */,
 				EBD73EB62442C766005E467B /* AppDelegate.swift in Sources */,
 				EBE579302443E99E00D0252D /* FieldViewController.swift in Sources */,

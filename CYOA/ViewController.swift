@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    var AudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+     
+        let AssortedMusics = NSURL(fileURLWithPath: Bundle.main.path(forResource:
+        "Chief", ofType: "mp3")!)
+        
+        AudioPlayer = try! AVAudioPlayer(contentsOf: AssortedMusics as URL)
+        AudioPlayer.numberOfLoops = 0
+        AudioPlayer.play()
     }
-
-
+    
+    
     @IBOutlet weak var sliderOutlet: UISlider!
     @IBAction func sliderSlid(_ sender: UISlider!) {
         //all the way right starts game

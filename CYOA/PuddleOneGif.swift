@@ -1,20 +1,20 @@
 //
-//  BrokenViewController.swift
+//  PuddleOneGif.swift
 //  CYOA
 //
-//  Created by Owner on 4/12/20.
+//  Created by Owner on 4/30/20.
 //  Copyright © 2020 Bone Octopus. All rights reserved.
 //
 
 import UIKit
 
-class BrokenViewController: UIViewController {
+class PuddleOneGif: UIViewController {
+
     @IBOutlet weak var GifView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        GifView.loadGif(name: "pixil-gif-drawing-2")
-
+        GifView.loadGif(name: "puddle monster")
         // Do any additional setup after loading the view.
     }
     
