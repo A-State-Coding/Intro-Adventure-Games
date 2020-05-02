@@ -20,7 +20,7 @@ class user44ViewController: UIViewController {
     
     @IBOutlet weak var continueOnTap: UIButton!
     
-    @IBAction func continueOnTap(_ sender: Any) { if currentPosition > dialouge.count-1 { performSegue(withIdentifier: "parenrSegue", sender: (Any).self)
+    @IBAction func continueOnTap(_ sender: Any) { if currentPosition > dialouge.count-1 { performSegue(withIdentifier: "parentSegue", sender: (Any).self)
         
     }else{gameTextLabel.text = dialouge[currentPosition]
         currentPosition += 1
